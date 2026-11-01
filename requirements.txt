@@ -1,0 +1,10 @@
+# SnapOCR - dependances Python
+PySide6>=6.6
+pywin32>=306
+# Pillow n'est utile que pour generer l'icone (scripts/), pas au runtime.
+# PyInstaller pour le build portable.
+pyinstaller>=6.0
+
+# Non-pip, a fournir dans snapocr/resources/tesseract/ :
+#   tesseract.exe + ses DLL + tessdata/{eng,fra}.traineddata + tessdata/configs/
+# Voir docs/README.md et build/fetch_assets.ps1

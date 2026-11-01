@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+build/pyi/
+build/*.spec
+dist/
+
+# Binaires Tesseract et modeles : recuperes par build/fetch_assets.ps1
+snapocr/resources/tesseract/
+
+config.json
