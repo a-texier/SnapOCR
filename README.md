@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="snapocr/resources/icon.png" width="96" alt="SnapOCR">
+  <img src="logo_OCR_App.png" width="160" alt="SnapOCR">
 </p>
 
 <h1 align="center">SnapOCR</h1>
